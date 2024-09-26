@@ -3,7 +3,8 @@
 
 ## Overview
 
-![logo](https://x.com/dokkan_global/header_photo)
+![imagen](https://github.com/user-attachments/assets/8907c0e5-e464-4a15-bb45-a265105af40f)
+
 
 This project is a **Dokkan Battle** API, developed in **Rust**, due to the lack of a publicly available REST API for the game.
 I built this project to fill the gap for developers and Dokkan enthusiasts who need a reliable way to access Dokkan-related information.
