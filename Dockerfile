@@ -1,16 +1,6 @@
 # Use Node.js v14 as base image
 FROM node:14 AS node-app
 
-WORKDIR /
-# Copy package.json and package-lock.json to container
-COPY package*.json ./
-# Install dependencies
-RUN npm install
-# Copy all files to container
-COPY . .
-# Build the GraphQL
-RUN npm run build
-
 # Rust app
 FROM rust:1.54 AS rust-app
 WORKDIR /

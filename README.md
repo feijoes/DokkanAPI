@@ -1,7 +1,36 @@
 # API Documentation
 
+
+## Overview
+
+![logo](https://x.com/dokkan_global/header_photo)
+
+This project is a **Dokkan Battle** API, developed in **Rust**, due to the lack of a publicly available REST API for the game.
+I built this project to fill the gap for developers and Dokkan enthusiasts who need a reliable way to access Dokkan-related information.
+
+
+## Prerequisites
+
+- Docker
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/feijoes/DokkanAPI.git
+cd DokkanAPI
+```
+
+### 2 Build and Run the api 
+
+```bash
+docker build -t dokkan-api .
+docker run -d -p 8000:8000 dokkan-api
+```
 WebScraper created by [MNprojects](https://github.com/MNprojects)
 
+## API Information
 #### Current Entities
 
 `Character`
