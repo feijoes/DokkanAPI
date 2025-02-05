@@ -3,7 +3,7 @@
 
 ## Overview
 
-![imagen](https://github.com/user-attachments/assets/8907c0e5-e464-4a15-bb45-a265105af40f)
+![dokkkan](https://github.com/user-attachments/assets/19a487cb-5986-48f5-8d6e-c9d1c6cb0071)
 
 
 This project is a **Dokkan Battle** API, developed in **Rust**, due to the lack of a publicly available REST API for the game.
